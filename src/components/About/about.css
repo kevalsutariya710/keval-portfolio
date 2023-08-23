@@ -1,0 +1,308 @@
+.about__container {
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+}
+
+.about__data {
+    padding: 1.875rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+    align-items: flex-start;
+    position: relative;
+}
+
+.about__data::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    left: 0.93rem;
+    top: 20%
+}
+
+.about__description {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.about__skills {
+    row-gap: 1.25rem;
+}
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+
+.skills__bar,
+.skills__percentage {
+    height: 7px;
+    border-radius: 0.25rem;
+}
+
+.skills__bar {
+    background-color: #f1f1f1;
+}
+
+.skills__percentage {
+    display: block;
+}
+
+.html {
+    width: 85%;
+    background-color: rgb(108, 108, 299);
+}
+
+.reactjs {
+    width: 80%;
+    background-color: rgb(225, 209, 92);
+}
+
+/****************** SKILLS SECTION  ********************/
+.nodejs {
+    width: 80%;
+    background-color: rgb(225, 76, 96);
+}
+
+.redux {
+    width: 70%;
+    background-color: rgb(108, 108, 299);
+}
+
+.cpp {
+    width: 70%;
+    background-color: rgb(225, 209, 92);
+}
+
+.dsa {
+    width: 50%;
+    background-color: rgb(225, 76, 96);
+}
+
+.python {
+    width: 50%;
+    background-color: rgb(108, 108, 299);
+}
+
+/**********************************************/
+
+.about__boxes {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4.35rem;
+}
+
+.about__box {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.about__icon {
+    font-size: var(--h1-font-size);
+    color: #dedeea;
+}
+
+.about__title {
+    font-size: 1.875rem;
+}
+
+@media screen and (max-width:1024px) {
+    .about__container {
+        grid-template-columns: 720px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+
+    .about__data::before {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        left: 49%;
+        top: -20px;
+    }
+
+    .about__img {
+        justify-self: center;
+    }
+
+    .about__box {
+        flex-direction: column;
+        row-gap: .5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about__container {
+        grid-template-columns: 350px;
+    }
+
+    .about__data::before {
+        left: 47%;
+    }
+
+    .about__data {
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+    }
+
+    .about__boxes {
+        grid-template-columns: repeat(2, 150px);
+        row-gap: 1.5rem;
+        justify-content: center;
+    }
+
+    #lastbox {
+        padding-left: 130px;
+        margin: auto auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .about__container {
+        grid-template-columns: 320px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+
+    .about__boxes {
+        grid-template-columns: 1fr;
+    }
+
+    #lastbox {
+        padding-left: 0px;
+        margin: 0 0;
+    }
+}
+
+
+
+
+.button {
+    --width: 100px;
+    --height: 35px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #1163ff;
+    /* --tooltip-color: #fff; */
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 1em;
+    width: 120px;
+    height: 35px;
+    margin-top: 40px;
+    transition: background 0.4s;
+    cursor: pointer;
+}
+
+.button::before {
+    position: absolute;
+    content: attr(data-tooltip);
+    width: var(--tooltip-width);
+    height: var(--tooltip-height);
+    background-color: var(--tooltip-color);
+    font-size: 0.9rem;
+    color: #111;
+    border-radius: .25em;
+    line-height: var(--tooltip-height);
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+    left: calc(50% - var(--tooltip-width) / 2);
+}
+
+.button::after,
+.button::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper,
+.text,
+.icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+}
+
+.text {
+    top: 0
+}
+
+.text,
+.icon {
+    transition: top 0.8s;
+}
+
+.icon {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    width: 26px;
+    height: 26px;
+}
+
+.button:hover {
+    background: #6c18ff;
+}
+
+.button:hover .text {
+    top: -100%;
+}
+
+.button:hover .icon {
+    top: 0;
+}
+
+.button:hover:before,
+.button:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.button:hover:after {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+}
+
+.button:hover:before {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+}
+
+.svgcolor {
+    color: #fff;
+    cursor: pointer;
+}

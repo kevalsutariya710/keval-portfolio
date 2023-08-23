@@ -1,0 +1,12 @@
+.github {
+    width: 900px;
+    margin-top: -10px;
+}
+
+@media (max-width : 768px) {
+
+    .github {
+        width: 340px;
+    }
+}
+

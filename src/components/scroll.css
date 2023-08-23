@@ -1,0 +1,57 @@
+.Btn {
+    width: 55px;
+    height: 55px;
+    background-image: linear-gradient(30deg, #6260eb, #58e2f5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5rem;
+    right: 4rem;
+    z-index: 999;
+    border: none;
+
+}
+
+.arrow path {
+    fill: white;
+}
+
+.Btn:hover .arrow {
+    animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .Btn {
+        width: 45px;
+        height: 45px;
+        background-image: linear-gradient(30deg, #6260eb, #58e2f5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        cursor: pointer;
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 999;
+        border: none;
+
+    }
+}
