@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/keval-portfolio/static/css/main.2cc3f189.css",
-    "main.js": "/keval-portfolio/static/js/main.29d3c93f.js",
+    "main.js": "/keval-portfolio/static/js/main.75726d53.js",
     "static/media/ecom.png": "/keval-portfolio/static/media/ecom.4eb5b4c1e9a45cd8face.png",
     "static/media/weather.png": "/keval-portfolio/static/media/weather.0f9c626d181a6d27b20c.png",
     "static/media/yt.png": "/keval-portfolio/static/media/yt.4c27416dd626ad4ba362.png",
+    "static/media/blog.png": "/keval-portfolio/static/media/blog.32796ad9a730f6bfdbe4.png",
     "static/media/NE.jpg": "/keval-portfolio/static/media/NE.8771662135fe0a97ef71.jpg",
     "static/media/js.jpg": "/keval-portfolio/static/media/js.d25fa6f3b8443a0bdb18.jpg",
     "static/media/proj.jpg": "/keval-portfolio/static/media/proj.9c6e7dc19b0a2341f5d9.jpg",
@@ -21,18 +22,18 @@
     "static/media/url.jpg": "/keval-portfolio/static/media/url.c262ed59c3cc807f8414.jpg",
     "static/media/amazone.jpg": "/keval-portfolio/static/media/amazone.f21d3459e4d1647ef8d1.jpg",
     "static/media/mypic.jpg": "/keval-portfolio/static/media/mypic.38bbafd9d2f1206f33a2.jpg",
+    "static/media/about.png": "/keval-portfolio/static/media/about.5d66ff145298d11e0ef2.png",
     "static/media/logo.png": "/keval-portfolio/static/media/logo.89c956515b613b1a21a4.png",
     "static/media/full1.png": "/keval-portfolio/static/media/full1.21eec5286353491b5a26.png",
-    "static/media/dsa_logo.webp": "/keval-portfolio/static/media/dsa_logo.6f5d1942390258df3e34.webp",
     "static/media/react_logo3.png": "/keval-portfolio/static/media/react_logo3.5185ea778c2c9d6d06db.png",
     "static/media/language_logo.png": "/keval-portfolio/static/media/language_logo.9a8660c0ba114bdba499.png",
     "static/media/dots-bg.svg": "/keval-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/keval-portfolio/index.html",
     "main.2cc3f189.css.map": "/keval-portfolio/static/css/main.2cc3f189.css.map",
-    "main.29d3c93f.js.map": "/keval-portfolio/static/js/main.29d3c93f.js.map"
+    "main.75726d53.js.map": "/keval-portfolio/static/js/main.75726d53.js.map"
   },
   "entrypoints": [
     "static/css/main.2cc3f189.css",
-    "static/js/main.29d3c93f.js"
+    "static/js/main.75726d53.js"
   ]
 }
