@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/keval-portfolio/static/css/main.2cc3f189.css",
-    "main.js": "/keval-portfolio/static/js/main.5fc1b7d1.js",
+    "main.js": "/keval-portfolio/static/js/main.e3fd4b55.js",
     "static/media/ecom.png": "/keval-portfolio/static/media/ecom.4eb5b4c1e9a45cd8face.png",
     "static/media/weather.png": "/keval-portfolio/static/media/weather.0f9c626d181a6d27b20c.png",
     "static/media/yt.png": "/keval-portfolio/static/media/yt.4c27416dd626ad4ba362.png",
@@ -12,6 +12,7 @@
     "static/media/me.jpg": "/keval-portfolio/static/media/me.d225ab033a3c1854256a.jpg",
     "static/media/r2.jpg": "/keval-portfolio/static/media/r2.ab4df2088df1a2d99c44.jpg",
     "static/media/python.jpg": "/keval-portfolio/static/media/python.6e3c585feaa5bd827c24.jpg",
+    "static/media/infolabz.jpg": "/keval-portfolio/static/media/infolabz.b98108d03fea75af76ed.jpg",
     "static/media/ip.jpg": "/keval-portfolio/static/media/ip.8dfeb14d3f1ee03c5ab7.jpg",
     "static/media/database_logo3.png": "/keval-portfolio/static/media/database_logo3.f7541720b1a5ee58c4d3.png",
     "static/media/iot-1.png": "/keval-portfolio/static/media/iot-1.53e59177d5b83774bb8f.png",
@@ -31,10 +32,10 @@
     "static/media/dots-bg.svg": "/keval-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/keval-portfolio/index.html",
     "main.2cc3f189.css.map": "/keval-portfolio/static/css/main.2cc3f189.css.map",
-    "main.5fc1b7d1.js.map": "/keval-portfolio/static/js/main.5fc1b7d1.js.map"
+    "main.e3fd4b55.js.map": "/keval-portfolio/static/js/main.e3fd4b55.js.map"
   },
   "entrypoints": [
     "static/css/main.2cc3f189.css",
-    "static/js/main.5fc1b7d1.js"
+    "static/js/main.e3fd4b55.js"
   ]
 }
