@@ -12,6 +12,7 @@ import python from "../../assets/cirtificates/python.jpg"
 import r from "../../assets/cirtificates/r.jpg"
 import r2 from "../../assets/cirtificates/r2.jpg"
 import ne from "../../assets/cirtificates/NE.jpg"
+import infolabz from "../../assets/cirtificates/infolabz.jpg"
 
 // import Swiper core and required modules
 // import  Pagination  from 'swiper';
@@ -52,6 +53,11 @@ export default function Achievements() {
           <SwiperSlide className="achievements__items" >
             <div className="thumb">
               <img src={me} alt='me' />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="achievements__items" >
+            <div className="thumbiot">
+              <img src={infolabz} alt='iot' />
             </div>
           </SwiperSlide>
           <SwiperSlide className="achievements__items" >

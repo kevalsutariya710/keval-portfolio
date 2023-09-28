@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import "./about.css";
-import Mypic from "../../assets/dsa_logo.webp";
+import Mypic from "../../assets/about.png";
 import Aboutbox from './Aboutbox';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,7 +17,7 @@ export default function About() {
     <section className="about container section" id="about">
       <h2 className="section__title">About Me</h2>
       <div className="about__container grid">
-        <img src={Mypic} alt="" width="190" className="about__img" />
+        <img src={Mypic} alt="about" width="270" className="about__img" />
 
         <div className="about__data grid">
           <div className="about__info">
@@ -32,7 +32,7 @@ export default function About() {
             <div className="button">
               <div className="button-wrapper">
                 <div className="text">Resume</div>
-                <a href="https://drive.google.com/file/d/1cYYfxe-cyWCTJ4kxRVTOgc2YKZwryI_s/view?usp=sharing" target="_blank " className='svgcolor' >
+                <a href="https://drive.google.com/file/d/1lZABW6G38ApIcFtBprBIGLz0eHMRXCEA/view?usp=sharing" target="_blank " className='svgcolor' >
                   <span className="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="4em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                       <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17">

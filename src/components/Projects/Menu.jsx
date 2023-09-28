@@ -5,6 +5,9 @@ import project6 from "../../assets/full2.png";
 import Work3 from "../../assets/ecom.png";
 import Work6 from "../../assets/amazone.jpg";
 import url from '../../assets/url.jpg'
+import blog from "../../assets/blog.png";
+import st from '../../assets/st.png'
+import foodie from "../../assets/foodie.png"
 
 const Menu = [
   {
@@ -16,9 +19,9 @@ const Menu = [
   },
   {
     id: 2,
-    url: "https://ephemeral-dieffenbachia-622c95.netlify.app/",
+    url: "https://euphonious-kangaroo-c9be39.netlify.app/",
     image: Work3,
-    title: "Ecommerce Web App | React.js + Tailwind CSS  + FackStore API",
+    title: "E-commerce Web App | React.js + Context API + Tailwind CSS  + FackStore API",
     category: "Frontend",
   },
   {
@@ -41,7 +44,7 @@ const Menu = [
     id: 5,
     url: "https://github.com/kevalsutariya710/AmazonClone",
     image: Work6,
-    title: "Amazone Clone | React.js ",
+    title: "Amazon Clone | React.js ",
     category: "Frontend",
   },
   ,
@@ -60,6 +63,28 @@ const Menu = [
     category: "Frontend",
   },
   ,
+  {
+    id: 8,
+    url: "https://github.com/kevalsutariya710/Bharat-intern/tree/main/Task-1",
+    image: blog,
+    title: "Created a Blog WebApp using MERN Stack",
+    category: "Full Stack",
+  },
+  {
+    id: 9,
+    url: "https://kevalsutariya710.github.io/Speech-to-Text/",
+    image: st,
+    title: "Speech-to-Text Generator | React.js ",
+    category: "Frontend",
+  },
+  ,
+  {
+    id: 10,
+    url: "https://foodiee-tau.vercel.app/",
+    image: foodie,
+    title: "Food Order WebApp | React.js & redux/toolkit ",
+    category: "Frontend",
+  },
 ];
 
 export default Menu;
