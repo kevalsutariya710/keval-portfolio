@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/keval-portfolio/static/css/main.a08f98f7.css",
-    "main.js": "/keval-portfolio/static/js/main.f14dec8a.js",
+    "main.css": "/keval-portfolio/static/css/main.7994ca91.css",
+    "main.js": "/keval-portfolio/static/js/main.80c044b1.js",
+    "static/media/about.png": "/keval-portfolio/static/media/about.8a8c99795d8b1620f8f6.png",
     "static/media/ecom.png": "/keval-portfolio/static/media/ecom.4eb5b4c1e9a45cd8face.png",
     "static/media/foodie.png": "/keval-portfolio/static/media/foodie.ecb7441d5ea95c9342d0.png",
     "static/media/weather.png": "/keval-portfolio/static/media/weather.0f9c626d181a6d27b20c.png",
@@ -15,7 +16,6 @@
     "static/media/python.jpg": "/keval-portfolio/static/media/python.6e3c585feaa5bd827c24.jpg",
     "static/media/infolabz.jpg": "/keval-portfolio/static/media/infolabz.b98108d03fea75af76ed.jpg",
     "static/media/ip.jpg": "/keval-portfolio/static/media/ip.8dfeb14d3f1ee03c5ab7.jpg",
-    "static/media/database_logo3.png": "/keval-portfolio/static/media/database_logo3.f7541720b1a5ee58c4d3.png",
     "static/media/iot-1.png": "/keval-portfolio/static/media/iot-1.53e59177d5b83774bb8f.png",
     "static/media/soft.jpg": "/keval-portfolio/static/media/soft.ff0058bb3803515bba17.jpg",
     "static/media/mongo.jpg": "/keval-portfolio/static/media/mongo.42248eb5da8aca6c7635.jpg",
@@ -25,18 +25,18 @@
     "static/media/amazone.jpg": "/keval-portfolio/static/media/amazone.f21d3459e4d1647ef8d1.jpg",
     "static/media/mypic.jpg": "/keval-portfolio/static/media/mypic.38bbafd9d2f1206f33a2.jpg",
     "static/media/st.png": "/keval-portfolio/static/media/st.24b36369e6119ef73b77.png",
-    "static/media/about.png": "/keval-portfolio/static/media/about.5d66ff145298d11e0ef2.png",
     "static/media/logo.png": "/keval-portfolio/static/media/logo.89c956515b613b1a21a4.png",
     "static/media/full1.png": "/keval-portfolio/static/media/full1.21eec5286353491b5a26.png",
-    "static/media/react_logo3.png": "/keval-portfolio/static/media/react_logo3.5185ea778c2c9d6d06db.png",
-    "static/media/language_logo.png": "/keval-portfolio/static/media/language_logo.9a8660c0ba114bdba499.png",
+    "static/media/database_logo3.png": "/keval-portfolio/static/media/database_logo3.5fcda6db5510c6677e88.png",
+    "static/media/language_logo.png": "/keval-portfolio/static/media/language_logo.793696e72ddb745f9081.png",
+    "static/media/react_logo3.png": "/keval-portfolio/static/media/react_logo3.66d6dfcdaf446f01c6c3.png",
     "static/media/dots-bg.svg": "/keval-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/keval-portfolio/index.html",
-    "main.a08f98f7.css.map": "/keval-portfolio/static/css/main.a08f98f7.css.map",
-    "main.f14dec8a.js.map": "/keval-portfolio/static/js/main.f14dec8a.js.map"
+    "main.7994ca91.css.map": "/keval-portfolio/static/css/main.7994ca91.css.map",
+    "main.80c044b1.js.map": "/keval-portfolio/static/js/main.80c044b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a08f98f7.css",
-    "static/js/main.f14dec8a.js"
+    "static/css/main.7994ca91.css",
+    "static/js/main.80c044b1.js"
   ]
 }
